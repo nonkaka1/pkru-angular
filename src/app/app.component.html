@@ -1,0 +1,6 @@
+
+<h1> {{ title }} {{version}}</h1>
+
+<input name="title" type="text" (change)="changeTitle($event)" [value]="title" [disabled]="disabled"><br/>
+
+<input name="version" type="text" (change)="changeVersion($event)">
